@@ -45,6 +45,12 @@ header{
         text-transform:uppercase;
 }
 
+.navigation-links a:first-child{
+        color:#ed563b;
+}
+.navigation-links a:hover{
+        color:#ed563b;
+}
 .btn{
         padding:17px 26px;
         background-color: #ed563b;
@@ -60,4 +66,11 @@ header{
 .btn:hover{
         background-color: aliceblue;
         color:#ed563b;
+        cursor:pointer;
+}
+
+/* tablate and mobile screns */
+
+@media (max-width: 768px) {
+       
 }
